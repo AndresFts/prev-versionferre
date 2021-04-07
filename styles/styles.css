@@ -50,7 +50,7 @@ nav{
 /* HEADER */
 header{
     height: 350px;
-    color: #fff;
+    color: #eee;
     background: #000c;
     background: -webkit-linear-gradient(to right, #000c, #000c);
     background: linear-gradient(to right, #000c, #000c), url(../recursos/header.jpg);
