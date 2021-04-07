@@ -11,7 +11,7 @@ body{
 nav{
     width: 100%;
     height: 60px;
-    background: #f30000;
+    background: #777;
     color: #fff;
     display: flex;
     flex-flow: row wrap;
@@ -39,11 +39,12 @@ nav{
     text-decoration: none;
     line-height: 60px;
     color: #fff;
-    background: #790000;
+    background: #000;
     padding: 0 50px;
 }
 .links a:hover{
-    background: #962121;
+    background: #fff;
+    color: #000;
     text-decoration: underline;
 }
 /* HEADER */
@@ -85,13 +86,11 @@ header p{
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-    box-shadow: 3px 3px 7px #000b;
-    transition: 0.5s ease-out;
+    box-shadow: 7px 7px 1px #000;
+    transition: 1s ease-in-out;
 }
 .filtros__card:hover{
-    transform: translateY(-20px);
-    transform: scale(1.06);
-    box-shadow: 10px 10px 15px #0005;
+    transform: translateY(-50px)
 }
 .filtros__card1{
     grid-area: c1;
@@ -117,10 +116,8 @@ header p{
 
 .middle{
     padding: 30px;
-    background: #ddd;
     background: url(../recursos/middle.jpg);
     background-position: center;
-    background-attachment: fixed;
     height: 200px;
 
     display: flex;
@@ -128,10 +125,9 @@ header p{
 }
 
 .middle h2{
-    font-weight: 900;
-    font-size: 40px;
+    font-weight: 100;
+    font-size: 50px;
     color: #fff;
-    text-shadow: 3px 3px 3px #000;
 }
 
 /* SLIDER DE CARTAS */
@@ -148,7 +144,7 @@ header p{
 }
 .slider__lista{
     padding: 10px;
-    background: #afa;
+    background: #888;
 }
 .lista__card{
     background: #fff;
@@ -161,7 +157,7 @@ header p{
     align-items: center;
 }
 .lista__card:hover{
-    box-shadow: 0 0 5px 3px #0f0;
+    box-shadow: 0 0 5px 3px #000;
 }
 .lista__card img{
     max-height: 200px;
@@ -173,7 +169,7 @@ header p{
 }
 .card__precio{
     font-weight: 900;
-    color: #0f0
+    color: #aaa
 }
 /* SLIDER__BOTONES */
 .slider__container{
@@ -191,13 +187,13 @@ header p{
     cursor: pointer;
     font-size: 20px;
     text-align: center;
-    background: #0f09;
-    color: #000;
+    background: #333;
+    color: #fff;
     z-index: 100;
 }
 .slider__anterior:hover,
 .slider__siguiente:hover{
-    color: #fff;
+    color: #0f0;
 }
 .slider__anterior{
 	left: 0;
@@ -209,18 +205,15 @@ header p{
 	overflow: hidden;
 }
 .slider__indicadores .glider-dot{
-    width: 30px;
-    height: 8px;
     margin: 20px 5px;
-    border-radius: 4px;
-    box-shadow: 0 0 1px 0.5px #0a0;
-    background: #0a0;
+    box-shadow: 0 0 1px 0.5px #333;
+    background: #333;
 }
 .slider__indicadores .glider-dot:hover{
-    background: #0a0;
+    background: #0f0;
 }
 .slider__indicadores .glider-dot.active{
-    background: #000;
+    background: #eee;
 }
 /* FOOTER */
 footer{
