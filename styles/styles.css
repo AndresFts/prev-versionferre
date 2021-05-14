@@ -17,6 +17,7 @@ nav{
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+margin: 20px 0;
 }
 .logo{
     display: flex;
@@ -118,9 +119,6 @@ header p{
     background: url(../recursos/middle.jpg);
     background-position: center;
     height: 200px;
-
-    display: flex;
-    align-items: center;
 }
 
 .middle h2{
@@ -130,38 +128,22 @@ header p{
 }
 
 /* SLIDER DE CARTAS */
-
-.slider{
-    padding-top: 1px;
-    /* background: #191c00; */
-}
 .slider h2{
-    text-align: center;
-    font-size: 15px;
-    font-weight: 100;
+    font-weight: 800;
     font-size: 40px;
     margin: 50px 0 30px 0;
-    color: #000;
+    color: #ff0;
 }
 .slider__lista{
-    padding: 10px;
     background: #888;
 }
 .lista__card{
     background: #fff;
-    margin: 0 15px;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    display: flex;
+    margin: 0 25px;
     flex-flow: column wrap;
-    align-items: center;
-}
-.lista__card:hover{
-    box-shadow: 0 0 5px 3px #000;
 }
 .lista__card img{
-    max-height: 200px;
+    max-height: 150px;
 }
 .card__name{
     margin: 3px 0;
